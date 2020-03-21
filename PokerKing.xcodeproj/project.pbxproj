@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		634C226D2410008F00943535 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C226C2410008F00943535 /* main.swift */; };
+		639EC0C5242121F600DE1C8E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EC0C4242121F600DE1C8E /* Player.swift */; };
+		639EC0C72421226C00DE1C8E /* DebtRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EC0C62421226C00DE1C8E /* DebtRelationship.swift */; };
+		639EC0C92421227B00DE1C8E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EC0C82421227B00DE1C8E /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		634C22692410008F00943535 /* PokerKing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokerKing; sourceTree = BUILT_PRODUCTS_DIR; };
 		634C226C2410008F00943535 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		639EC0C4242121F600DE1C8E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		639EC0C62421226C00DE1C8E /* DebtRelationship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtRelationship.swift; sourceTree = "<group>"; };
+		639EC0C82421227B00DE1C8E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				634C226C2410008F00943535 /* main.swift */,
+				639EC0C4242121F600DE1C8E /* Player.swift */,
+				639EC0C62421226C00DE1C8E /* DebtRelationship.swift */,
+				639EC0C82421227B00DE1C8E /* Game.swift */,
 			);
 			path = PokerKing;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639EC0C72421226C00DE1C8E /* DebtRelationship.swift in Sources */,
+				639EC0C5242121F600DE1C8E /* Player.swift in Sources */,
 				634C226D2410008F00943535 /* main.swift in Sources */,
+				639EC0C92421227B00DE1C8E /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
